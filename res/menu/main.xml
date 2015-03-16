@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:firsttestapp="http://schemas.android.com/apk/res-auto">
+
+    
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        firsttestapp:showAsAction="ifRoom"
+        android:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        firsttestapp:showAsAction="ifRoom"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
